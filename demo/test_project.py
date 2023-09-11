@@ -175,5 +175,6 @@ else:
     np.save(out_fn, g_np)
 
     # save image and sinogram slices as image file
-    print('I AM HERE!')
+    print('EDITED BELOW!')
+    g_np = g_np.astype(np.uint8)
     imageio.imsave(out_fn[:-4] + ".png", g_np[:,0,:]/np.max(g_np))

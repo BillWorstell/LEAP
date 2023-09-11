@@ -101,7 +101,6 @@ if len(img_fn) > 0:
 else:
     f = simulate_img(dimz, dimx)
 
-
 # use PyTorch Projector class
 if not use_API:
     print("### use leapct Projector class ###")
